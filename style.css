@@ -1,103 +1,103 @@
 body {
-background: rgb(119, 2, 197);
-color: rgb(45, 45, 45);
-padding: 10px;
-font-family: Arial, sans-serif;
+  background-image: url("https://i.pinimg.com/736x/9a/9b/88/9a9b888fc773e1092ad97408185a3522.jpg");
+  color: rgb(83, 123, 112);
+  padding: 10px;
+  font-family: Arial, sans-serif;
 }
 
 #all-contents {
-max-width: 800px;
-margin: auto;
+  max-width: 800px;
+  margin: auto;
 }
 
 /* navigation menu */
 nav {
-background: rgb(239, 80, 41);
-margin: 0 auto;
-display: flex;
-padding: 10px;
+  background: rgb(22, 129, 113);
+  margin: 8 auto;
+  display: flex;
+  padding: 10px;
 }
 
 h1 {
-display: flex;
-align-items: center;
-color: white;
-flex: 1;
-margin: 0;
+  display: flex;
+  align-items: center;
+  color: rgb(8, 55, 69);
+  flex: 1;
+  margin: 0;
 }
 
 #nav-ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .nav-li {
-display: inline-block;
-padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
 
 a {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #a6fff9;
 }
 
 /* main container area beneath menu */
 main {
-background: rgb(41, 0, 48);
-display: flex;
-margin-top: 20px;
+  background: rgb(15, 35, 36);
+  display: flex;
+  margin-top: 20px;
 }
 
 .sidebar {
-margin-right: 25px;
-padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
 }
 
 .sidebar-img {
-width: 200px;
+  width: 200px;
 }
 
 .content {
-flex: 1;
-padding: 15px;
+  flex: 1;
+  padding: 15px;
 }
 
 /* interests section styles */
 #interests {
-border: 4px silver ridge;
-padding: 8px;
-margin-top: 20px;
+  border: 4px rgb(1, 14, 13) ridge;
+  padding: 8px;
+  margin-top: 20px;
 }
 
 h2,
 h3 {
-margin: 0px;
+  margin: 0px;
 }
 
 /* Portfolio styles */
 .content h1 {
-color: black;
+  color: rgba(0, 174, 157, 0.548);
 }
 
 #portfolio {
-list-style-type: none;
-padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 #portfolio li {
-background: #fff;
-padding: 10px;
-border-radius: 10px;
-margin-bottom: 10px;
+  background: #7bd8c4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-background: #eee;
+  background: #000000;
 }
 
 #portfolio a {
-text-decoration: none;
-color: #454545;
+  text-decoration: none;
+  color: #000000;
 }
